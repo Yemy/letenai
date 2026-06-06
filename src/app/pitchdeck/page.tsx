@@ -86,7 +86,7 @@ export default function PitchDeckPage() {
             </p>
 
             <a
-              href="/pitchdeck.pptx"
+              href="/pitchdeck-updated.pptx"
               download
               className="mt-4 px-8 py-4 bg-gradient-to-r from-brand-emerald to-brand-teal text-white font-bold rounded-2xl hover:shadow-xl hover:shadow-brand-teal/20 hover:scale-102 transition-all flex items-center gap-3 shadow-lg active:scale-98 glow-effect"
             >
@@ -146,7 +146,7 @@ export default function PitchDeckPage() {
                   </p>
                 </div>
                 <a
-                  href="/pitchdeck.pptx"
+                  href="/pitchdeck-updated.pptx"
                   download
                   className="w-full py-3 bg-brand-teal text-white text-center font-bold text-xs rounded-xl hover:bg-brand-emerald active:scale-95 transition-all flex items-center justify-center gap-2"
                 >
