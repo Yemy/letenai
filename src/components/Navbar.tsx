@@ -97,24 +97,24 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <Link
+          {/* <Link
             href="/pitchdeck"
             className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-brand-teal dark:hover:text-brand-teal transition-colors flex items-center gap-1"
           >
             <Presentation className="w-3.5 h-3.5" /> Pitch Deck
-          </Link>
+          </Link> */}
         </div>
 
         {/* Right side actions */}
         <div className="hidden md:flex items-center gap-4">
           {/* Theme Toggle */}
-          <button
+          {/* <button
             onClick={toggleDarkMode}
             className="p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors text-slate-700 dark:text-slate-300"
             aria-label="Toggle Theme"
           >
             {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-          </button>
+          </button> */}
 
           {/* CTA */}
           <Link
