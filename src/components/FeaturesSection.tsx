@@ -7,7 +7,7 @@ export default function FeaturesSection() {
   const featureList = [
     {
       title: "AI Wellness Coach",
-      desc: "An empathetic conversational partner providing evidence-based cognitive strategies adapted to African settings.",
+      desc: "An empathetic conversational partner providing evidence-based cognitive strategies adapted to Ethiopian settings.",
       icon: <MessageSquare className="w-6 h-6 text-teal-500" />
     },
     {

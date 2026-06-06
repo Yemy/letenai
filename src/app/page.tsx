@@ -2,7 +2,8 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
-import { ArrowDown, Flame, Shield, Users, Sparkles } from "lucide-react";
+import { ArrowDown, Flame, Shield, Users, Sparkles, Download, Presentation } from "lucide-react";
+import Link from "next/link";
 
 // Dynamically import 3D Hero Scene with SSR disabled to prevent server-side hydration issues
 const ThreeDHero = dynamic(() => import("@/components/ThreeDHero"), {
@@ -52,7 +53,7 @@ export default function Home() {
           {/* Subtext badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/40 dark:bg-brand-dark-card/50 border border-slate-200/50 dark:border-slate-800/50 text-slate-800 dark:text-slate-200 text-xs font-black uppercase tracking-widest shadow-sm animate-pulse-slow">
             <Sparkles className="w-4 h-4 text-brand-teal" />
-            Africa's Behavioral Wellness OS
+            Ethiopia's Behavioral Wellness OS
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight leading-none text-slate-800 dark:text-white">
@@ -65,18 +66,24 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 items-center mt-4 w-full sm:w-auto">
-            <a
-              href="#contact"
-              className="w-full sm:w-auto px-8 py-4 rounded-2xl text-base font-bold bg-gradient-to-r from-brand-emerald to-brand-teal text-white shadow-xl shadow-brand-teal/20 hover:shadow-2xl hover:shadow-brand-teal/30 hover:scale-103 hover:brightness-105 active:scale-98 transition-all duration-300 text-center glow-effect"
+            <Link
+              href="/app"
+              className="w-full sm:w-auto px-8 py-4 rounded-2xl text-base font-bold bg-gradient-to-r from-brand-emerald to-brand-teal text-white shadow-xl shadow-brand-teal/20 hover:shadow-2xl hover:shadow-brand-teal/30 hover:scale-103 hover:brightness-105 active:scale-98 transition-all duration-300 text-center glow-effect flex items-center justify-center gap-2"
             >
-              Start Free Wellness Journey
-            </a>
+              <Download className="w-5 h-5" /> Download Our App
+            </Link>
             <a
-              href="#corporate"
+              href="/#corporate"
               className="w-full sm:w-auto px-8 py-4 rounded-2xl text-base font-bold border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-brand-dark-card/50 text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-900/60 hover:scale-103 active:scale-98 transition-all duration-300 text-center"
             >
               Explore Corporate Wellness
             </a>
+            <Link
+              href="/pitchdeck"
+              className="w-full sm:w-auto px-8 py-4 rounded-2xl text-base font-bold border border-brand-teal/30 bg-brand-teal/5 dark:bg-brand-teal/5 text-brand-emerald dark:text-brand-teal hover:bg-brand-teal/10 hover:scale-103 active:scale-98 transition-all duration-300 text-center flex items-center justify-center gap-2"
+            >
+              <Presentation className="w-5 h-5" /> View Pitch Deck
+            </Link>
           </div>
 
           {/* Quick micro values indicators */}
@@ -84,6 +91,7 @@ export default function Home() {
             <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-brand-teal" /> 100% Anonymous</span>
             <span className="flex items-center gap-1.5"><Flame className="w-4 h-4 text-rose-500 animate-pulse" /> Gamified Habits</span>
             <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-brand-blue" /> Community Circles</span>
+            <Link href="/app" className="flex items-center gap-1.5 hover:text-brand-teal transition-colors"><Download className="w-4 h-4 text-emerald-500" /> Get the App</Link>
           </div>
 
         </div>

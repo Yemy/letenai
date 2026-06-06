@@ -105,7 +105,7 @@ export default function ContactSection() {
                 Subscribe to our newsletter
               </h4>
               <p className="text-xs text-slate-500 dark:text-slate-400 mb-4 leading-relaxed">
-                Stay updated on mental health research, product releases, and corporate wellness guidelines in Africa.
+                Stay updated on mental health research, product releases, and corporate wellness guidelines in Ethiopia.
               </p>
               
               <AnimatePresence mode="wait">

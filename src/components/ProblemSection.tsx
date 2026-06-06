@@ -45,7 +45,7 @@ export default function ProblemSection() {
       label: "Mental Health Treatment Gap",
       value: 85,
       suffix: "%",
-      desc: "Eighty-five percent of individuals in Africa suffering from psychological conditions have zero access to support.",
+      desc: "Eighty-five percent of individuals in Ethiopia suffering from psychological conditions have zero access to support.",
       icon: <EyeOff className="w-5 h-5 text-rose-500" />,
       color: "border-rose-500/20 shadow-rose-500/5"
     },
@@ -53,7 +53,7 @@ export default function ProblemSection() {
       label: "Young Professionals Burned Out",
       value: 64,
       suffix: "%",
-      desc: "Unprecedented rates of digital overload, stress, and anxiety in Africa's emerging startup and tech hubs.",
+      desc: "Unprecedented rates of digital overload, stress, and anxiety in Ethiopia's emerging startup and tech hubs.",
       icon: <ShieldAlert className="w-5 h-5 text-amber-500" />,
       color: "border-amber-500/20 shadow-amber-500/5"
     },
@@ -82,7 +82,7 @@ export default function ProblemSection() {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-black tracking-tight leading-tight text-slate-800 dark:text-white">
-              Africa is facing a <span className="bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent">burnout and anxiety</span> crisis.
+              Ethiopia is facing a <span className="bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent">burnout and anxiety</span> crisis.
             </h2>
             
             <p className="text-base md:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -91,7 +91,7 @@ export default function ProblemSection() {
             
             <div className="border-l-4 border-brand-teal pl-5 py-2 my-2 bg-brand-teal/5 dark:bg-brand-teal/2 rounded-r-xl">
               <p className="text-sm italic text-slate-500 dark:text-slate-400">
-                “Mental health in Africa has long been neglected. High cost, severe social stigma, and language barriers mean millions suffer in absolute silence.”
+                “Mental health in Ethiopia has long been neglected. High cost, severe social stigma, and language barriers mean millions suffer in absolute silence.”
               </p>
               <div className="mt-2 text-xs font-semibold text-slate-600 dark:text-slate-300">— World Health Organization Digital Health Studies</div>
             </div>

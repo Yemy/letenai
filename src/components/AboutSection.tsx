@@ -51,7 +51,7 @@ export default function AboutSection() {
 
             <div className="space-y-4 text-slate-600 dark:text-slate-300 text-base md:text-lg leading-relaxed">
               <p>
-                In many African societies, mental health is a topic spoken of in whispers. Stigma is heavy, costs are high, and there is only one psychiatrist for every one million people in some countries. 
+                In many Ethiopian societies, mental health is a topic spoken of in whispers. Stigma is heavy, costs are high, and there is only one psychiatrist for every one million people in some countries. 
               </p>
               
               <p>
@@ -59,7 +59,7 @@ export default function AboutSection() {
               </p>
 
               <p className="font-semibold text-slate-800 dark:text-white">
-                Our mission is clear: To make behavioral wellness accessible to every African, regardless of their language, income level, or internet access.
+                Our mission is clear: To make behavioral wellness accessible to every Ethiopian, regardless of their language, income level, or internet access.
               </p>
 
               <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">

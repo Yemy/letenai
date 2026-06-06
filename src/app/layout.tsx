@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LeTenai – AI for Health | Africa's Behavioral Wellness Operating System",
-  description: "Prevent burnout, build healthy habits, and thrive together. LeTenai is Africa's premium behavioral AI wellness platform, featuring SMS, USSD offline modes, and local voice coaching in Amharic, English, and Tigrigna.",
+  title: "LeTenai – AI for Health | Ethiopia's Behavioral Wellness Operating System",
+  description: "Prevent burnout, build healthy habits, and thrive together. LeTenai is Ethiopia's premium behavioral AI wellness platform, featuring SMS, USSD offline modes, and local voice coaching in Amharic, English, and Tigrigna.",
 };
 
 export default function RootLayout({

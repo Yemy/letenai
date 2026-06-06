@@ -92,7 +92,7 @@ export default function SolutionSection() {
             Introducing LeTenai
           </div>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight leading-tight text-slate-800 dark:text-white">
-            Africa’s Behavioral Wellness <span className="bg-gradient-to-r from-brand-emerald to-brand-blue bg-clip-text text-transparent">Operating System</span>
+            Ethiopia’s Behavioral Wellness <span className="bg-gradient-to-r from-brand-emerald to-brand-blue bg-clip-text text-transparent">Operating System</span>
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-base md:text-lg leading-relaxed">
             An intelligent, accessible framework combining clinical neuroscience with game mechanics to build emotional resilience and lasting health habits.

@@ -57,7 +57,7 @@ export default function Footer() {
             </a>
             
             <p className="text-sm text-slate-500 dark:text-slate-400 max-w-sm leading-relaxed">
-              Africa’s Behavioral Wellness Operating System. We leverage scientific gamification and multi-channel AI to build healthier, happier, and burnout-free communities.
+              Ethiopia’s Behavioral Wellness Operating System. We leverage scientific gamification and multi-channel AI to build healthier, happier, and burnout-free communities.
             </p>
 
             {/* Social Links */}
@@ -150,7 +150,7 @@ export default function Footer() {
             &copy; {currentYear} LeTenai Wellness. All rights reserved.
           </p>
           <p className="text-xs text-brand-emerald dark:text-brand-teal font-semibold tracking-wide">
-            AI for Health – Building Africa’s Wellness Future 🌍
+            AI for Health – Building Ethiopia’s Wellness Future 🌍
           </p>
         </div>
       </div>

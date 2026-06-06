@@ -13,7 +13,7 @@ export default function PitchDeckPage() {
       title: "The Silent Epidemic",
       topic: "The Problem",
       points: [
-        "85% of people in Africa suffering from mental health issues have no access to treatment.",
+        "85% of people in Ethiopia suffering from mental health issues have no access to treatment.",
         "Young professional burnout and anxiety are skyrocketing in tech hubs.",
         "Clinical services are expensive, stigmatized, and linguistically inaccessible."
       ]
@@ -50,12 +50,12 @@ export default function PitchDeckPage() {
     },
     {
       num: "05",
-      title: "Scaling Across Africa",
+      title: "Scaling Across Ethiopia",
       topic: "Market & Roadmap",
       points: [
         "Addis Ababa pilot with 5,000+ active student circle users.",
         "Expanding to Kenya and Nigeria with Swahili and Hausa localized engines.",
-        "Securing research partnerships with African mental health coalitions."
+        "Securing research partnerships with Ethiopian mental health coalitions."
       ]
     }
   ];
@@ -82,7 +82,7 @@ export default function PitchDeckPage() {
             </h1>
             
             <p className="text-slate-500 dark:text-slate-400 text-base sm:text-lg max-w-2xl leading-relaxed">
-              Explore our vision, technological edge, and roadmap for building Africa's Behavioral Wellness Operating System. Download the full presentation below.
+              Explore our vision, technological edge, and roadmap for building Ethiopia's Behavioral Wellness Operating System. Download the full presentation below.
             </p>
 
             <a

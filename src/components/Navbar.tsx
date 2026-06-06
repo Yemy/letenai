@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Sun, Moon, Menu, X } from "lucide-react";
+import { Sun, Moon, Menu, X, Download, Presentation } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
@@ -50,11 +51,11 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { name: "Problem", href: "#problem" },
-    { name: "Solution", href: "#solution" },
-    { name: "How It Works", href: "#how-it-works" },
-    { name: "B2B Wellness", href: "#corporate" },
-    { name: "Community", href: "#community" },
+    { name: "Solution", href: "/#solution" },
+    { name: "How It Works", href: "/#how-it-works" },
+    { name: "B2B Wellness", href: "/#corporate" },
+    { name: "Community", href: "/#community" },
+    { name: "About", href: "/#about" },
   ];
 
   return (
@@ -86,7 +87,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop Nav Links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -96,6 +97,12 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+          <Link
+            href="/pitchdeck"
+            className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-brand-teal dark:hover:text-brand-teal transition-colors flex items-center gap-1"
+          >
+            <Presentation className="w-3.5 h-3.5" /> Pitch Deck
+          </Link>
         </div>
 
         {/* Right side actions */}
@@ -110,12 +117,12 @@ export default function Navbar() {
           </button>
 
           {/* CTA */}
-          <a
-            href="#contact"
-            className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-gradient-to-r from-brand-emerald to-brand-teal text-white hover:shadow-lg hover:shadow-brand-teal/20 transition-all active:scale-98 glow-effect"
+          <Link
+            href="/app"
+            className="px-5 py-2.5 rounded-xl text-sm font-semibold bg-gradient-to-r from-brand-emerald to-brand-teal text-white hover:shadow-lg hover:shadow-brand-teal/20 transition-all active:scale-98 glow-effect flex items-center gap-2"
           >
-            Start Free Journey
-          </a>
+            <Download className="w-4 h-4" /> Download App
+          </Link>
         </div>
 
         {/* Mobile menu trigger */}
@@ -150,13 +157,20 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <a
-            href="#contact"
+          <Link
+            href="/pitchdeck"
             onClick={() => setIsOpen(false)}
-            className="mt-2 w-full py-3 text-center font-bold text-white bg-gradient-to-r from-brand-emerald to-brand-teal rounded-xl shadow-lg shadow-brand-teal/10"
+            className="text-base font-semibold text-slate-700 dark:text-slate-200 hover:text-brand-teal transition-colors py-2 border-b border-slate-100 dark:border-slate-900 flex items-center gap-2"
           >
-            Start Free Journey
-          </a>
+            <Presentation className="w-4 h-4" /> Pitch Deck
+          </Link>
+          <Link
+            href="/app"
+            onClick={() => setIsOpen(false)}
+            className="mt-2 w-full py-3 text-center font-bold text-white bg-gradient-to-r from-brand-emerald to-brand-teal rounded-xl shadow-lg shadow-brand-teal/10 flex items-center justify-center gap-2"
+          >
+            <Download className="w-4 h-4" /> Download App
+          </Link>
         </div>
       )}
     </nav>
