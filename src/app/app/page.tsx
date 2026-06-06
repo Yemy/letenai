@@ -74,7 +74,7 @@ export default function AppDownloadPage() {
               {/* Direct APK Download Button */}
               <div className="flex flex-col sm:flex-row gap-4 items-start mt-2">
                 <a
-                  href="/Lenetai-mvp.apk"
+                  href="/Lenetai-MVP.apk"
                   download
                   className="px-8 py-4 bg-gradient-to-r from-brand-emerald to-brand-teal text-white font-bold rounded-2xl hover:shadow-xl hover:shadow-brand-teal/20 hover:scale-102 transition-all flex items-center gap-3 shadow-lg active:scale-98 glow-effect"
                 >
