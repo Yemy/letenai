@@ -78,17 +78,10 @@ export default function AppDownloadPage() {
                   download
                   className="px-8 py-4 bg-gradient-to-r from-brand-emerald to-brand-teal text-white font-bold rounded-2xl hover:shadow-xl hover:shadow-brand-teal/20 hover:scale-102 transition-all flex items-center gap-3 shadow-lg active:scale-98 glow-effect"
                 >
-                  <Download className="w-5 h-5" /> Download Android App (APK)
+                  <Download className="w-5 h-5" /> Download Android App (MVP)
                 </a>
               </div>
 
-              {/* Warnings / Disclaimer details */}
-              <div className="p-4 bg-amber-500/10 dark:bg-amber-500/5 border border-amber-500/20 rounded-2xl flex items-start gap-3 text-slate-650 dark:text-slate-300">
-                <ShieldAlert className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
-                <div className="text-xs sm:text-sm leading-relaxed">
-                  <span className="font-bold">Android Sideloading Note:</span> Since we distribute offline-first software tailored directly for regional cellular providers, you may need to authorize installations from third-party sources in your browser settings.
-                </div>
-              </div>
             </div>
 
             {/* Right Instructions / Highlights Column */}
